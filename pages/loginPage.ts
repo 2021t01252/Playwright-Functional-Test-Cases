@@ -1,6 +1,6 @@
 import { Page } from 'playwright'; // import playwright module to this page
 
-export class LoginPage { // create class for store variable store functions 
+export class LoginPage { // create class for store variables and store functions 
     private page: Page; // crate page instance using page 
     private loginButton1: string; // all variables pre defined as string
     private individualLink: string; // all variables pre defined as string
